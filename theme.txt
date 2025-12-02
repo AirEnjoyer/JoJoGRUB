@@ -1,0 +1,32 @@
+# Arch-Silence theme for GRUB2
+#
+# Copyright (C) 2015 Filippo Ghibellini
+
+#general settings
+title-text: ""
+desktop-image: "JoJoBG.png"
+
+terminal-font: "SF Fedora Regular 24"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+#boot menu
++ boot_menu {
+	left = 50%-150
+	width = 500
+	top = 50%+100
+	height = 300
+
+	item_font = "SF Fedora Regular 24"
+	selected_item_font = "SF Fedora Regular 24"
+	selected_item_color = "#fff"
+
+	item_height = 26
+	item_padding = 0
+	item_icon_space = 0
+	item_spacing = 1
+	scrollbar = false
+}
