@@ -6,7 +6,7 @@
 title-text: ""
 desktop-image: "JoJoBG.png"
 
-terminal-font: "SF Fedora Regular 24"
+terminal-font: "CaskaydiaCove NFM Regular 14"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
